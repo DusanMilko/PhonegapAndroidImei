@@ -22,7 +22,7 @@
             <clobbers target="window.plugins.deviceinfo" />
         </js-module>
 
-        <source-file src="src/android/DeviceInfo.java" target-dir="src/com/dusan/imei/DeviceInfo" />
+        <source-file src="src/android/DeviceInfo.java" target-dir="src/com/dusan/imei" />
     </platform>
 
 </plugin>
