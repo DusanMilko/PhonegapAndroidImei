@@ -51,7 +51,6 @@ Your **res/xml/config.xml** has
 <plugins>
    <plugin name="DeviceInfo" value="com.dusan.imei.DeviceInfo"/>
 </plugins>
-
 ```
 
 Your **AndroidManifest.xml** has
