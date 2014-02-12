@@ -6,7 +6,7 @@
 2. Use the cmd line
 
 ```
-phonegap local plugin add https://thisgit.git
+phonegap local plugin add https://github.com/DusanMilko/PhonegapAndroidImei.git
 ```
 
 You should now see it in your plugins folder PROJECT/plugins/com.dusan.imei.DeviceInfo
