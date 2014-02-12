@@ -47,12 +47,12 @@ Under assets/www/plugins/com.dusan.imei.DeviceInfo/www should be the deviceinfo.
 
 Your **res/xml/config.xml** has
 
----
-> \<plugins>
->   \<plugin name="DeviceInfo" value="com.dusan.imei.DeviceInfo"/>
-> \</plugins>
+```
+ \<plugins>
+   \<plugin name="DeviceInfo" value="com.dusan.imei.DeviceInfo"/>
+ \</plugins>
 
----
+```
 
 Your **AndroidManifest.xml** has
 
@@ -60,3 +60,5 @@ Your **AndroidManifest.xml** has
 > \<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
 ---
+
+# The ADT android simulator will return 00000000, which is correct, once you test on a real device you will get the real number
