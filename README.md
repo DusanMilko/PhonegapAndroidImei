@@ -61,6 +61,6 @@ Your **AndroidManifest.xml** has
 ```
 
 ---
-> The ADT android simulator will return 00000000, which is correct, once you test on a real device you will get the real number
+> #### The ADT android simulator will return 00000000, which is correct, once you test on a real device you will get the real number
 
 ---
