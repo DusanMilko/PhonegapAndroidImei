@@ -9,6 +9,8 @@
 phonegap local plugin add https://thisgit.git
 ```
 
+You should now see it in your plugins folder PROJECT/plugins/com.dusan.imei.DeviceInfo
+
 ---
 > **If using phonegap 3.3 of later use "cordova ..." not "phonegap ..."**
 
@@ -27,6 +29,21 @@ if( plugins.DeviceInfo ){
 ```
 
 ### After install make sure
+
+You build the project
+
+```
+phonegap build android
+```
+
+Then check your platforms/android/ folder
+
+Under src/com/dusan/imei should be the DeviceInfo.java file
+
+Under assets/www/plugins/com.dusan.imei.DeviceInfo/www should be the deviceinfo.js file 
+
+**If these files aren't there you installed incorrectly**
+
 
 Your **res/xml/config.xml** has
 
